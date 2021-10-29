@@ -28,7 +28,7 @@ project_urls={
                     self.api_messages.append(error["message"])
 # Copyright 2009-2021 Joshua Roesslein
 # See LICENSE for details.
-
+'url' => env('APP_URL', 'http://localhost'),
 # Appengine users: https://developers.google.com/appengine/docs/python/sockets/#making_httplib_use_sockets
 
 import json
